@@ -2,7 +2,7 @@
 
 Demo hello-world application in nodejs to be built in an docker image, pushed to dockerhub as public and deployed in kubernetes cluster as 3 replicas and 1 small load balance service. 
 
-### Pre-re
+### Pre-requirements
 
 In order to run this demo you need the following: 
 
