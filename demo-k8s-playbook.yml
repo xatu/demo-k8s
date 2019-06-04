@@ -1,0 +1,12 @@
+---
+- hosts: k8s
+  tasks:
+  - name: Create a deployment from yml local file
+    k8s:
+      state: present
+      src: ./k8s/deployment-demo-k8s.yml
+  
+  - name: Create service from yml local file
+    k8s:
+      state: present
+      src: ./k8s/service-demo-k8s.yml
